@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Cadastro de Medicamentos </title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <h3 class="navButtons">Home</h3>
+        <h3 class="navButtons">Cadastro<br>de Medicamentos</h3>
+        <h3 class="navButtons">Cadastro<br>de Vacinas</h3>
+        <h3 class="navButtons">Cadastro<br>de Cosmeticos</h3>
+    </nav>
+
+    <header>
+        <div class="logo">
+            <img src="images/pills.png">
+        </div>
+        <div class="title">
+            <h1>Cadastro de Medicamentos</h1>
+            <h2 style="margin-top: -2rem;">Farmácia da Gente</h2>
+        </div>
+    </header>
+
+    <section class="sec-form">
+        <div id="form-group">
+
+            <form onsubmit="addMed()">
+                <label for="medName">Nome do Medicamento</label>
+                <input type="text" required id="mName" name="medName" placeholder="Bonagrip">
+                <label for="medQ">Quantidade Disponível</label>
+                <input type="text" required id="mCant" name="medQ" placeholder="200">
+                <label for="medCl">Classe de Medicamento</label>
+                <input type="text" required id="mClass" name="medCl" placeholder="Antibiotico">
+
+                <button type="submit" style="margin-top: 2rem;">Cadastrar</button>
+            </form>
+        </div>
+
+        <div>
+            <table id="dataTable">
+                <tr>
+                    <th>ID</th>
+                    <th>Medicamento</th>
+                    <th>Quantidade</th>
+                    <th>Classe de Medicamento</th>
+                    <th>Remover</th>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <script src="index.js"></script>
+
+</body>
+
+</html>

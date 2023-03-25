@@ -1,0 +1,138 @@
+body {
+    background-color: #ead8d8;
+    margin: 0;
+}
+
+nav {
+    background-color: #76BEBE;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-around;
+
+}
+
+nav h3 {
+    color: #F5F5F5;
+    font-family: Raleway;
+    font-size: 18pt;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+header {
+    display: grid;
+    grid-auto-flow: column;
+    background-color: #FFFFFF;
+}
+
+header h1 {
+    color: #CF509C;
+    font-family: Raleway;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 75px;
+    text-align: center;
+}
+
+header h2 {
+    font-family: Raleway;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #000000;
+}
+
+section {
+    display: grid;
+    grid-auto-flow: column;
+    text-align: center;
+    padding: 3rem;
+}
+
+form {
+    display: grid;
+    grid-auto-flow: row;
+    padding: 1rem;
+}
+
+.logo {
+    padding-left: 10rem;
+}
+
+.title {
+    padding-right: 14rem;
+    text-align: center;
+}
+
+label {
+    font-family: Alegreya Sans SC;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+}
+
+input {
+    margin-top: 6px;
+    margin-bottom: 3px;
+    background: rgba(255, 255, 255, 0.57);
+    border-radius: 10px;
+    border: 0;
+    width: 500px;
+    height: 45px;
+    left: 104px;
+    top: 369px;
+    box-sizing: border-box;
+    font-family: Alegreya Sans SC;
+    font-size: 20px;
+}
+
+button {
+    width: 200px;
+    height: 42px;
+    left: 000px;
+    top: 701px;
+    border: 0;
+    background: #76BEBE;
+    border-radius: 10px;
+    margin-left: 8rem;
+
+    font-family: Raleway;
+    font-size: 18.5pt;
+    font-weight: 700;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: aliceblue;
+}
+
+th {
+    color: aliceblue;
+    width: 110px;
+    height: 25px;
+   
+    box-sizing: border-box;
+    background: #3E3D3D;
+    border: 1px solid #767373;
+    font-size: 11pt;
+    font-family: 'Alegreya Sans SC';
+    font-weight: lighter;
+    min-width: 140px;
+}
+
+td{
+    min-width: 176px;
+    height: 31px;
+    left: 121px;
+    top: 54px;
+
+    background: rgba(255, 255, 255, 0.57);
+    border: 1px solid #767373;
+}
